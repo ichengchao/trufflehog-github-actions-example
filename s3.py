@@ -22,3 +22,5 @@ if __name__ == "__main__":
     bucket_lister = S3BucketLister(region_name="us-east-1")
     buckets = bucket_lister.list_buckets()
     print(buckets)
+    print(buckets)
+    
